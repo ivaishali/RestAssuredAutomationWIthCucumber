@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Rest Assure Automation configuration" verbose="10">
+    <listeners>
+
+    </listeners>
+    <test name="SmokeSuite">
+        <classes>
+            <class name="com.qa.automation.runner.SmokeRunner"></class>
+        </classes>
+    </test>
+</suite>
